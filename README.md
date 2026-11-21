@@ -1,6 +1,6 @@
 # AgentGate — Identity, Permissions & Safe-Web Gateway for AI Agents
 
-AgentGate is a FastAPI gateway and MCP server that gives AI agents verifiable identity, scoped permissions, hard spending caps, human-in-the-loop approvals, and a prompt-injection-safe web interface powered by Olostep.
+AgentGate is a FastAPI gateway and MCP server that gives AI agents verifiable identity, scoped permissions, hard spending caps, human-in-the-loop approvals, and a sanitized web-browsing layer that uses Olostep for reliable page extraction and AgentGate's own middleware for prompt-injection defense.
 
 ## Project Scope
 - **Who it is for:** Developers and teams deploying autonomous AI agents that browse the web, call APIs, or spend money on behalf of users.
