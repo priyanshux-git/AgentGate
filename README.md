@@ -10,5 +10,5 @@ AgentGate is a FastAPI gateway and MCP server that gives AI agents verifiable id
 - **Backend & Validation:** FastAPI, Pydantic, SQLModel (SQLite)
 - **Web Layer for Agents:** Olostep Python SDK
 - **Demo Agent & Orchestration:** Pydantic AI, Model Context Protocol (MCP)
-- **LLM Models:** Gemini 3.8 Flash (via Google AI Studio API)
+- **LLM Models:** Gemini 3.5 Flash Lite (via Google AI Studio API)
 - **Testing & Evaluation:** Keploy, custom Python red-team eval harness
